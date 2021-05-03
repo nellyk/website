@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -11,11 +11,16 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className="px-4 sm:px-6 md:px-8 mb-14 sm:mb-20 xl:mb-8">
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight mt-10 mb-8 sm:mt-14 sm:mb-10"> Nelly Kiboi </h1>
-          <p className="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium mb-10 sm:mb-11"> Software Engineer | Mentor| Speaker| OpenSource </p>
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight mt-10 mb-8 sm:mt-14 sm:mb-10">
+            {" "}
+            Nelly Kiboi{" "}
+          </h1>
+          <p className="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium mb-10 sm:mb-11">
+            {" "}
+            Software Engineer | Mentor| Speaker| OpenSource{" "}
+          </p>
         </div>
       </main>
     </div>
-
   );
 }
